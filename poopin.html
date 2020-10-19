@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+
+        .fermer:hover {
+            background-color: red;
+            color: #ffffffc0;
+
+        }
+
+        .fermer {
+            background-color: #ffffff66;
+            color: #313131;
+            width: 30px;
+            height: 30px;
+            
+
+            position: absolute;
+            right: -11px;
+            top: -16px;
+            border-radius: 500px;
+
+            line-height: 30px;
+            text-align: center;
+            transition: all 0.5s;
+            text-decoration: none;
+        }
+
+        .darkground {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color:#000000aa;
+        }
+
+        .container {
+            background-color: #fff;
+            position: relative;
+            width: 500px;
+            margin: 150px auto;
+            padding: 0.2rem 1.5rem 0.1rem;
+        }
+
+        .container h2 {
+            text-align: center;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid grey;
+        }
+
+        .container a {
+            text-decoration: none;
+            color: orange;
+        }
+
+        .container fa-exclamation-triangle {
+            color: orange;
+            margin-right: 0.5rem;
+        }
+
+        .logo-dmw {
+            vertical-align: middle;
+            height: 1.5rem;
+        }
+        .copyleft {
+            font-style: italic;
+            text-align: left;
+            font-weight: 0.8rem;
+        }
+
+        .fa-css-alt {
+            font-size: 3rem;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+
+
+    </style>
+</head>
+<div class="darkground">
+    <div class="container">
+        <i class="fas fa-times fermer"></i>
+        <h2><i class=" fas fa-exclamation-triangle"></i>message important</h2>
+        <p>Ce masque va prévenir l'utilisateur d'un message inhabituel</p>
+        <p>Il est possible de revenir  à l'index du contenu css en cliquant sur:
+            <a href="#"><i class="fab fa-css3-alt"></i>ici</a>
+        </p>
+        <p class="copyleft">
+            contenu, certifié et tester par l'agence
+            <img class="logo-dmw" src="" alt="dimension web">
+        </p>
+
+    </div><!-- end div container -->
+</div><!-- end div darkground -->
+
+<body>
+    
+</body>
+</html>
