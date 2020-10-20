@@ -73,18 +73,11 @@ figure {
 
 
  figcaption {
-     background-color: rgba(255, 255, 255, 0.5);
-     /* padding: 10px;
-     min-height: 110px; */
+
  }
 
 
-#service-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 
 .product_name {
     font-size: 20px;
@@ -92,9 +85,8 @@ figure {
     margin-top: 0px
 }
 footer {
-    width: 900px;
     margin: auto;
-    background-color: #fff;
+    background-color: #ccc;
 }
 #reseaux {
    display: flex;
@@ -114,12 +106,13 @@ footer {
 }
 
 a::before {
-    
+    content:".";
+    color: gray;
 }
 
 #footer-nav a {
     background: #f8f8f8;
-    align-content:space-around;
+    /* align-content:space-around; */
     text-decoration: none;
    margin: auto;
    color: black;
@@ -130,6 +123,26 @@ a::before {
 
 #service-bloc {
     display: flex;
-    flex-direction: column;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 
+}
+
+#img-texte {
+    width: 60%;
+    flex: 25%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* classes */
+.margin-top {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#service-footer {
+    width: 900px;
 }
